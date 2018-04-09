@@ -99,10 +99,12 @@ regxy () {
 
 
 printf $"$run Decompiling the apk\n"
+clear
 extract
 printf $"$run Extracting endpoints\n"
+clear
 grabby
 regxy
 clear
-printf $"$info Endpoints saved in: $links\n"
+printf $"$info Bilgiler Basarılı Sekilde Kaydedildi : $links\n"
 exit
