@@ -109,10 +109,9 @@ $end"""
 grabby
 regxy
 clear
-printf """$green 
-Bu Program "www.pcdunyasi.tv" Kullanıcıları İçin Hazırlanmıştır. 
+printf """$green Bu Program "www.pcdunyasi.tv" Kullanıcıları İçin Hazırlanmıştır. 
 
-
+İşlem TAMAMLANDI.
 $end"""
-printf $"$info Bilgiler Basarılı Sekilde Kaydedildi : $links\n"
+printf $"$info Kaydedildi : $links\n"
 exit
