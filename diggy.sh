@@ -9,10 +9,7 @@ good='\033[1;32m[+]\033[1;m'
 run='\033[1;97m[~]\033[1;m'
 
 printf """$green     ___  _               
-    / _ \(_)__ ____ ___ __
-   / // / / _ \`/ _ \`/ // /
-  /____/_/\_, /\_, /\_, / 
-         /___//___//___/  
+ 
 
 $end"""
 
@@ -100,15 +97,21 @@ regxy () {
 
 printf $"$run Decompiling the apk\n"
 clear
+printf """$green 
+İşlem Devam Ediyor. Lütfen Bekleyin...
+$end"""
 extract
 printf $"$run Extracting endpoints\n"
 clear
+printf """$green 
+İşlem Devam Ediyor. Lütfen Bekleyin...
+$end"""
 grabby
 regxy
 clear
 printf """$green 
-
 Bu Program "www.pcdunyasi.tv" Kullanıcıları İçin Hazırlanmıştır. 
+
 
 $end"""
 printf $"$info Bilgiler Basarılı Sekilde Kaydedildi : $links\n"
