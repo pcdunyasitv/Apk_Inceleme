@@ -103,5 +103,6 @@ extract
 printf $"$run Extracting endpoints\n"
 grabby
 regxy
+clear
 printf $"$info Endpoints saved in: $links\n"
 exit
