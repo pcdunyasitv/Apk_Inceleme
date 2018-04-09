@@ -109,7 +109,7 @@ $end"""
 grabby
 regxy
 clear
-printf """$greenBu Program "www.pcdunyasi.tv" Kullanıcıları İçin Hazırlanmıştır. 
+printf """$green Bu Program "www.pcdunyasi.tv" Kullanıcıları İçin Hazırlanmıştır. 
 
 İŞLEM TAMAMLANDI.
 
